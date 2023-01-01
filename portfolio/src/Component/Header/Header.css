@@ -1,0 +1,32 @@
+header{
+    background-color: blue;
+    padding: 10px 0px;
+    
+}
+.h-container{
+    width:90%;
+    margin: auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.h-name{
+    width:50px;
+    height:auto;
+}
+.h-name img{
+    width:100%;
+    height:auto;
+}
+.h-navbar nav ul li {
+    list-style: none;
+}
+.h-navbar nav ul{
+display: flex;
+}
+.h-navbar nav ul li a{
+    text-decoration: none;
+    margin: 0rem 18px;
+    color: rgb(255, 255, 255);
+}
+

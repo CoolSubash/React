@@ -1,0 +1,101 @@
+
+.i-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0rem auto;
+    height: 80vh;
+}
+.i-left,.i-right{
+    flex:1;
+    
+}
+.i-left{
+    margin-left: 2rem;
+}
+
+.i-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    width:400px;
+    position: relative;
+    /* background-color: rgb(210, 128, 21); */
+}
+.i-right-bg{
+    height:100%;
+    background-color: chartreuse;
+    width:100%;
+    position:absolute;
+    padding: 20px;
+   
+    clip-path: inset(5% 20% 15% 10%);
+
+}
+.i-right-img{
+  
+  position: absolute;
+}
+
+.i-right-img img{ 
+height:400px;
+width:400px;
+/* object-fit: cover; */
+
+/* border-radius: 50%; */
+}
+.i-heading h6
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(1, 0, 0);
+    font-size: 18px;
+}
+
+.i-heading h1{
+    font-weight:bold;
+    font-size:30px;
+    margin: 10px 0px;
+
+}
+
+
+.i-job{
+  height:50px;
+  overflow: hidden;
+}
+
+
+
+.i-job h3{
+   font-size: 1.9rem;
+    letter-spacing: 1px;
+    animation-name: movejob;
+    animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  background: linear-gradient(to right, #12c2e9, #f64f59, #f64f59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation-iteration-count: infinite;
+    margin:10px 0px;
+}
+@keyframes movejob{
+   
+    50%{
+        transform: translateY(-70px);
+    }100%{
+        transform: translateY(-140px);
+    }
+
+}
+.i-details p{
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 400;
+    color: gray;
+    
+}
